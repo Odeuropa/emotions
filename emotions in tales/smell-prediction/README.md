@@ -11,6 +11,6 @@ We pick the best model out of [BERT](https://huggingface.co/bert-base-uncased), 
     - git checkout <commit_sha> 
 
 Utilizing this best model, we have predicted the sentences of the fairy tales. The predictions are in the [results](results/) folder:
-- [predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.10_46.jsonl](results/predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.10_46.jsonl.json): all sentences with their predictions
-- [predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.10_46-POSITIVES.jsonl](results/predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.10_46-POSITIVES.jsonl.json): sentences that are predicted as containing smell
-- [predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.10_46-NEGATIVES.jsonl](results/predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.10_46-NEGATVES.jsonl.json): sentences that are predicted as NOT containing smell
+- [predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.15_46.jsonl](results/predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.15_46.jsonl.json): all sentences with their predictions
+- [predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.15_46-POSITIVES.jsonl](results/predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.15_46-POSITIVES.jsonl.json): sentences that are predicted as containing smell
+- [predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.15_46-NEGATIVES.jsonl](results/predictions_bert_emotions_csv_macBERTh-uncased_64_64_0.15_46-NEGATVES.jsonl.json): sentences that are predicted as NOT containing smell
